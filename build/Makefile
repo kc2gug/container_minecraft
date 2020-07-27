@@ -35,4 +35,6 @@ run:
 deploy:
 	make run -e port=25570 -e RUN_ID=$@
 
+deploy_multi_mod:
+	make run -e port 25572 -e RUN_ID=$@
 default: build

@@ -2,7 +2,7 @@ FROM kc2gug/container_centos7_java:latest
 
 RUN yum -y update && yum clean all && useradd -ms /bin/bash minecraft -d /minecraft/ 
 COPY server.jar /minecraft
-COPY paper-165.jar /minecraft
+COPY paper_mc.jar /minecraft
 COPY eula.txt /minecraft
 
 USER minecraft
