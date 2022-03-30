@@ -2,6 +2,6 @@ SHELLARGS?=-i -t
 repo_host=docker.io
 org_name=kc2gug
 repo_name=centos_minecraft
-version=0.4
+version=0.5
 minecraft_version=1.18.1
 paper_mc_version=1.18.2-272
